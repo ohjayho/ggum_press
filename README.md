@@ -6,6 +6,6 @@ The book publishing website.
 
 HTML, CSS, Javascript
 
-# Develop time
+# Development time
 
 2023.12.11 ~
