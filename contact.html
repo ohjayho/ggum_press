@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GGUM Press</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <section class="hero">
@@ -16,7 +17,35 @@
           <div><a href="./contact.html">Contact</a></div>
         </div>
       </nav>
-      <div class="phrase_container"></div>
+      <div class="contact">
+        <form name="contact" method="POST" class="contact_form" netlify>
+          <div class="contact_field">
+            <label class="contact_title">Name</label>
+            <input type="text" class="contact_input contact_name" name="name" />
+          </div>
+          <div class="contact_field">
+            <label class="contact_title">Phone number</label>
+            <input
+              type="text"
+              class="contact_input contact_phone"
+              name="phone"
+            />
+          </div>
+          <div class="contact_field">
+            <label class="contact_title">Email</label>
+            <input
+              type="email"
+              class="contact_input contact_email"
+              name="email"
+            />
+          </div>
+          <div class="contact_field">
+            <label class="contact_title">Message</label>
+            <textarea class="contact_input contact_msg"></textarea>
+          </div>
+          <button class="btn_submit" type="submit">Submit</button>
+        </form>
+      </div>
     </section>
     <footer>
       <section class="info">
@@ -61,4 +90,5 @@
     </footer>
   </body>
   <script src="index.js"></script>
+  <script src="contact.js"></script>
 </html>
