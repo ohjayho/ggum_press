@@ -1,9 +1,9 @@
-.hero {
+body {
   background-image: url(./assets/about.jpg);
 }
 
 .menu a {
-  color: white;
+  color: #780000;
 }
 
 .about {
@@ -46,10 +46,12 @@
 .reason_explain {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .reason_title {
   margin-bottom: 15px;
+  min-height: 50px;
 }
 
 .reason_img {
