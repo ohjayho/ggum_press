@@ -1,13 +1,12 @@
 .contact {
   display: flex;
-  flex-grow: 1;
   justify-content: center;
   align-items: center;
-  margin-top: -100px;
+  padding: 100px 0;
 }
 
 .contact_form {
-  background-color: #379683;
+  background-color: #003049;
   padding: 30px 50px;
   border-radius: 10px;
 }
@@ -41,4 +40,6 @@
   padding: 10px 20px;
   border-radius: 5px;
   margin: 15px auto 0;
+  color: #780000;
+  font-weight: bolder;
 }
