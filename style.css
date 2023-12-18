@@ -6,12 +6,16 @@
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial;
+  background-image: url(./assets/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a:link,
 a:visited {
-  color: black;
+  color: #780000;
 }
 
 ul {
@@ -23,52 +27,56 @@ button {
 }
 
 .hero {
-  background-image: url(./assets/hero.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   padding: 20px 40px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+  padding: 10px 40px;
+  background-color: rgba(256, 256, 256, 70%);
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #c04c3f;
 }
 
-.logo {
+.nav_container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.company_name {
+  color: #780000;
+  font-size: 50px;
+}
+
+.menu_container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-}
-
-.menu div {
-  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
-  font-weight: lighter;
+  font-weight: bold;
   margin-left: 20px;
 }
 
 .phrase_container {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
   align-items: center;
+  color: #780000;
 }
 
 .phrase_container .phrases {
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: bolder;
   margin-left: 25px;
   margin-bottom: 300px;
 }
@@ -86,13 +94,14 @@ footer {
   width: 100%;
   padding: 20px;
   color: white;
-  background-color: #379683;
+  background-color: #003049;
 }
 
 .info {
   display: flex;
   width: 100%;
   padding: 10px 0;
+  color: white;
 }
 
 .info_box {
@@ -127,11 +136,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 120px;
   padding: 10px 0;
   margin-left: auto;
-  background-color: #557a95;
-  color: white;
+  background-color: #fdf0d5;
+  color: #780000;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 5px;
 }
 
 .sns_list {
