@@ -185,6 +185,14 @@ footer {
   .contact_title {
     font-size: 18px;
   }
+
+  .service:first-child {
+    margin-right: 0;
+  }
+
+  .service img {
+    margin-bottom: 15px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -227,5 +235,9 @@ footer {
 
   .contact_title {
     font-size: 1.5rem;
+  }
+
+  .service:first-child {
+    margin-right: 40px;
   }
 }
