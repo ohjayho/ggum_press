@@ -1,8 +1,11 @@
+.contact_main {
+  background-image: url(../assets/hero.jpg);
+}
+
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
 }
 
 .contact_form {
