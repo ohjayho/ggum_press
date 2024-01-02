@@ -8,7 +8,7 @@ HTML, CSS, Javascript
 
 # Development time
 
-2023.12.11 ~
+2023.12.11 ~ 2023.12.20
 
 # Deploy
 
